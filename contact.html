@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+   
+    <header>
+        <!--the header tag seperates the header bar at the top of the page from the content at the bottom-->
+        <div class="content-width">
+                <!-- content width sets the width of gray part of the header, and establishes it as a flexbox -->
+            <div class="logo">
+                <!-- class logo creates a box around the <h1> element giving it a background color of green-->
+                <h1>Andrew Maurer</h1>
+            </div>
+            <nav>
+                <!-- the <nav tag groups the <a> tags together that lead to the differnent pages of the website-->
+                <a id="about" href="index.html">About</a>
+                <a id="portfolio" href="portfolio.html">Portfolio</a>
+                <a id="Contact" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <!--seperates main content of page from header and footer -->
+        <div class="content-width-2" id=forms>
+            <!--sets the width of the main content of page and matches with the header, but is not set as a flexbox-->
+            <h2>Contact</h2>
+
+                <form>
+                    <!--form tag formats the contact info submission form-->
+                    Name<br>
+                    <input type="text" placeholder="John Smith">
+                    <br>
+                    E-mail<br>
+                    <input type="text" placeholder="example@gmail.com">
+                    <br>
+                    Message<br>
+                    <input type="text" value="" id=message><br>
+
+                    <input type="submit" value="Submit">
+
+
+                </form>
+                
+
+        </div>
+    </div>
+
+    <footer>Copyright&#169; 2018</footer>
+    <!--footer seperated from main content, streches the full length of the page-->
+</body> 
